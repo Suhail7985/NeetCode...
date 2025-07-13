@@ -1,4 +1,4 @@
-<!-- 2410. Maximum Matching of Players With Trainers
+2410. Maximum Matching of Players With Trainers
 Solved
 Medium
 Topics
@@ -48,4 +48,4 @@ No
 Accepted
 84,106/117K
 Acceptance Rate
-71.9% -->
+71.9%
