@@ -1,51 +1,41 @@
-2410. Maximum Matching of Players With Trainers
-Solved
-Medium
-Topics
-premium lock iconCompanies
-Hint
+<h2><a href="https://leetcode.com/problems/two-sum">Two Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
-You are given a 0-indexed integer array players, where players[i] represents the ability of the ith player. You are also given a 0-indexed integer array trainers, where trainers[j] represents the training capacity of the jth trainer.
+<p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
 
-The ith player can match with the jth trainer if the player's ability is less than or equal to the trainer's training capacity. Additionally, the ith player can be matched with at most one trainer, and the jth trainer can be matched with at most one player.
+<p>You can return the answer in any order.</p>
 
-Return the maximum number of matchings between players and trainers that satisfy these conditions.
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
- 
+<pre>
+<strong>Input:</strong> nums = [2,7,11,15], target = 9
+<strong>Output:</strong> [0,1]
+<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
+</pre>
 
-Example 1:
+<p><strong class="example">Example 2:</strong></p>
 
-Input: players = [4,7,9], trainers = [8,2,5,8]
-Output: 2
-Explanation:
-One of the ways we can form two matchings is as follows:
-- players[0] can be matched with trainers[0] since 4 <= 8.
-- players[1] can be matched with trainers[3] since 7 <= 8.
-It can be proven that 2 is the maximum number of matchings that can be formed.
+<pre>
+<strong>Input:</strong> nums = [3,2,4], target = 6
+<strong>Output:</strong> [1,2]
+</pre>
 
-Example 2:
+<p><strong class="example">Example 3:</strong></p>
 
-Input: players = [1,1,1], trainers = [10]
-Output: 1
-Explanation:
-The trainer can be matched with any of the 3 players.
-Each player can only be matched with one trainer, so the maximum answer is 1.
+<pre>
+<strong>Input:</strong> nums = [3,3], target = 6
+<strong>Output:</strong> [0,1]
+</pre>
 
- 
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Constraints:
+<ul>
+	<li><code>2 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
+	<li><strong>Only one valid answer exists.</strong></li>
+</ul>
 
-    1 <= players.length, trainers.length <= 105
-    1 <= players[i], trainers[j] <= 109
-
- 
-
-Note: This question is the same as 445: Assign Cookies.
-Seen this question in a real interview before?
-1/5
-Yes
-No
-Accepted
-84,106/117K
-Acceptance Rate
-71.9%
+<p>&nbsp;</p>
+<strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
