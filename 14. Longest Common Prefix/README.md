@@ -1,21 +1,54 @@
-<h2>14. Longest Common Prefix</h2>
-<span style="color:green;font-weight:bold;">Solved</span><br/>
-<span style="color:orange;font-weight:bold;">Easy</span><br/>
-<p><strong>Topics</strong></p>
-<p><strong>Companies</strong></p>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><meta name="twitter:card" content="summary_large_image" data-next-head=""/><meta name="twitter:site" content="@LeetCode" data-next-head=""/><meta property="og:image" content="https://leetcode.com/static/images/LeetCode_Sharing.png" data-next-head=""/><meta property="og:locale" content="en_US" data-next-head=""/><meta property="og:site_name" content="LeetCode" data-next-head=""/><title data-next-head="">Longest Common Prefix - LeetCode</title><meta name="robots" content="index,follow" data-next-head=""/><meta name="description" content="Can you solve this real interview question? Longest Common Prefix - Write a function to find the longest common prefix string amongst an array of strings.
 
-<p>Write a function to find the longest common prefix string amongst an array of strings.</p>
-<p>If there is no common prefix, return an empty string "".</p>
+If there is no common prefix, return an empty string &quot;&quot;.
 
-<p><strong>Example 1:</strong><br/>
-Input: strs = ["flower","flow","flight"] Output: "fl"</p>
+ 
 
-<p><strong>Example 2:</strong><br/>
-Input: strs = ["dog","racecar","car"] Output: "" Explanation: There is no common prefix among the input strings.</p>
+Example 1:
 
-<p><strong>Constraints:</strong></p>
-<ul>
-  <li>1 <= strs.length <= 200</li>
-  <li>0 <= strs[i].length <= 200</li>
-  <li>strs[i] consists of only lowercase English letters if it is non-empty.</li>
-</ul>
+
+Input: strs = [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
+Output: &quot;fl&quot;
+
+
+Example 2:
+
+
+Input: strs = [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
+Output: &quot;&quot;
+Explanation: There is no common prefix among the input strings.
+
+
+ 
+
+Constraints:
+
+ * 1 &lt;= strs.length &lt;= 200
+ * 0 &lt;= strs[i].length &lt;= 200
+ * strs[i] consists of only lowercase English letters if it is non-empty." data-next-head=""/><meta property="og:title" content="Longest Common Prefix - LeetCode" data-next-head=""/><meta property="og:description" content="Can you solve this real interview question? Longest Common Prefix - Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string &quot;&quot;.
+
+ 
+
+Example 1:
+
+
+Input: strs = [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
+Output: &quot;fl&quot;
+
+
+Example 2:
+
+
+Input: strs = [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
+Output: &quot;&quot;
+Explanation: There is no common prefix among the input strings.
+
+
+ 
+
+Constraints:
+
+ * 1 &lt;= strs.length &lt;= 200
+ * 0 &lt;= strs[i].length &lt;= 200
